@@ -414,6 +414,16 @@ externalMariadb:
   ## @param externalMariadb.database External MariaDB database
   database: dolibarr
 
+externalDatabase:
+  enabled: false
+  type: "pgsql"
+  host: "localhost"
+  port: 5432
+  username: "dolibarr"
+  existingSecret: ""
+  existingSecretKeyPassword: ""
+  name: "dolibarr"
+
 ## @section Wait parameters
 
 wait:
